@@ -14,12 +14,9 @@ function arrRand (limit, arr,n,x){
         }
     }
 }
-
+//controlla se esiste un indice in un array
 function chkDouble(arr, num){
-    
-    if(arr.indexOf(num
-        
-        )>=0){
+    if(arr.indexOf(num)>=0){
         return true
     } else { 
         return false 
